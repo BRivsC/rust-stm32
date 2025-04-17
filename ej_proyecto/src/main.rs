@@ -7,8 +7,8 @@ use panic_halt as _; // you can put a breakpoint on `rust_begin_unwind` to catch
 // use panic_itm as _; // logs messages over ITM; requires ITM support
 // use panic_semihosting as _; // logs messages to the host stderr; requires a debugger
 
-use cortex_m::asm;
-use cortex_m_rt::entry;
+//use cortex_m::asm;
+//use cortex_m_rt::entry;
 
 use cortex_m_rt as rt;
 use stm32f4xx_hal as hal;
@@ -33,11 +33,11 @@ fn main() -> ! {
 
         loop {
             // .is_high reads IDR
-            if button.is_high().unwrap() {
+            if button.is_high() {
                 // .set_low uses BSRR
-                led.set_low().unwrap();
+                led.set_low();
             } else {
-                led.set_high().unwrap();
+                led.set_high();
             }
         }
     }

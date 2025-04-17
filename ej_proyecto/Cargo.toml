@@ -6,7 +6,7 @@ name = "ej_proyecto"
 version = "0.1.0"
 
 [dependencies]
-cortex-m = "0.7"
+# cortex-m = "0.7"
 cortex-m-rt = "0.6"
 embedded-hal = "0.2"
 stm32f4xx-hal = { version = "0.10", features = ["rt", "stm32f411"] }
@@ -29,6 +29,7 @@ panic-halt = "0.2.0"
 # this lets you use `cargo fix`!
 [[bin]]
 name = "ej_proyecto"
+path = "src/main.rs"
 test = false
 bench = false
 
