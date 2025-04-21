@@ -1,5 +1,13 @@
 #![no_std]
 #![no_main]
+/// Ejemplo 1: Encender LED al pulsar el botón en la placa
+/// Bastián Rivas
+/// Este ejemplo fue hecho pensando en una placa STM32 NUCLEO-F411RE
+/// 
+/// Compilar: cargo build --target thumbv7em-none-eabihf
+/// Flashear: cargo embed
+
+
 
 // pick a panicking behavior
 use panic_halt as _; // you can put a breakpoint on `rust_begin_unwind` to catch panics
