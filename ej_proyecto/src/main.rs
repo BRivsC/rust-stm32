@@ -21,12 +21,13 @@ use panic_halt as _; // you can put a breakpoint on `rust_begin_unwind` to catch
 use cortex_m_rt as rt;
 use stm32f4xx_hal as hal;
 use hal::prelude::*; // needed for the GpioExt trait (-> .split)
+use rtt_target::{rprintln, rtt_init_print}; //  Permite comunicarse usando RTT
 
 //#[entry]
 #[rt::entry]
 fn main() -> ! {
-    //asm::nop(); // To not have main optimize to abort in release mode, remove when you add code
     // El siguiente código fue tomado de https://github.com/krenzlin/rust-stm32f446-blinky/blob/master/src/main.rs
+    rtt_init_print!();
     if let Some(peripherals) = hal::stm32::Peripherals::take() {
         let gpioa = peripherals.GPIOA.split(); // + sets RCC->AHB1ENR GPIOA bit
 
@@ -44,8 +45,10 @@ fn main() -> ! {
             if button.is_high() {
                 // .set_low uses BSRR
                 led.set_low();
+                rprintln!("Botón libre");
             } else {
                 led.set_high();
+                rprintln!("Botón pulsado!");
             }
         }
     }
