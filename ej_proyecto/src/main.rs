@@ -4,7 +4,8 @@
 /// Bastián Rivas
 /// Este ejemplo fue hecho pensando en una placa STM32 NUCLEO-F411RE
 /// 
-/// Compilar: cargo build --target thumbv7em-none-eabihf
+/// Compilar: cd ej_proyecto
+///           cargo build --target thumbv7em-none-eabihf
 /// Flashear: cargo embed
 
 
