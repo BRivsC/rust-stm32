@@ -1,0 +1,10 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\debug\deps\libautocfg-40b8da455deb46dd.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\error.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\rustc.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\version.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\debug\deps\libautocfg-40b8da455deb46dd.rlib: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\error.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\rustc.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\version.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\debug\deps\autocfg-40b8da455deb46dd.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\error.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\rustc.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\version.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\error.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\rustc.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\autocfg-1.4.0\src\version.rs:

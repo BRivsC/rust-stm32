@@ -1,0 +1,10 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\librtt_target-198621bedee4485b.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\init.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\rtt.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\print.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\librtt_target-198621bedee4485b.rlib: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\init.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\rtt.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\print.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\rtt_target-198621bedee4485b.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\init.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\rtt.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\print.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\init.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\rtt.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\rtt-target-0.3.1\src\print.rs:

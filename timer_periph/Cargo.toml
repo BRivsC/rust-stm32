@@ -1,12 +1,233 @@
+[package]
+authors = ["BRivsC <bastian.rivas@sansano.usm.cl>"]
+edition = "2018"
+readme = "README.md"
+name = "timer_periph"
+version = "0.1.0"
+
+[package.metadata.docs.rs]
+features = [
+    "stm32f429",
+    "usb_fs",
+    "can",
+    "i2s",
+    "fsmc_lcd",
+    "rtic1",
+    "defmt",
+    "sdio-host",
+]
+
+[features]
+#! Use one of the supported STM32-serie related features:
+#! `stm32f401`, `stm32f405`, `stm32f407`, `stm32f415`, `stm32f417`, `stm32f410`,
+#! `stm32f411`, `stm32f412`, `stm32f413`, `stm32f423`, `stm32f427`, `stm32f429`,
+#! `stm32f437`, `stm32f439`, `stm32f446`, `stm32f469`, `stm32f479`.
+stm32f411 = ["stm32f4/stm32f411", "gpio-f411"]
+
+gpio-f411 = [
+    "gpiod",
+    "gpioe",  # "gpioi",
+    "i2c3",
+    "otg-fs",
+    "sdio",
+    "tim1",
+    "tim2",
+    "tim3",
+    "tim4",
+    "tim5",
+    "tim9",
+    "tim10",
+    "tim11",
+    "spi3",
+    "spi4",
+    "spi5",
+]
+
+
+## Support monotonic timers and other stuff that can be used by [RTICv1 framework](https://crates.io/crates/cortex-m-rtic)
+rtic1 = ["dep:rtic-monotonic", "dep:systick-monotonic", "cortex-m-rtic"]
+
+## Support monotonic timers and other stuff that can be used by [RTICv2 framework](https://crates.io/crates/rtic)
+##
+## Requires nightly rust compiler
+rtic2 = [
+    "dep:rtic-time",
+    "dep:rtic",
+    "dep:atomic-polyfill",
+    "dep:embedded-hal-async",
+]
+rtic-tim2 = []
+rtic-tim3 = []
+rtic-tim4 = []
+rtic-tim5 = []
+
+## Implementation of `defmt::Format` for public enums and structures. See [defmt](https://crates.io/crates/defmt)
+defmt = ["dep:defmt", "stm32f4/defmt", "fugit/defmt", "nb/defmt-0-3"]
+
+## bxCAN peripheral support. See [bxcan](https://crates.io/crates/bxcan)
+can = ["dep:bxcan"]
+
+## I2S peripheral support. See [stm32_i2s_v12x](https://crates.io/crates/stm32_i2s_v12x)
+i2s = ["dep:stm32_i2s_v12x"]
+
+## USB OTG-FS peripheral support. See [synopsys-usb-otg](https://crates.io/crates/synopsys-usb-otg)
+usb_fs = ["dep:synopsys-usb-otg", "synopsys-usb-otg/fs"]
+## USB OTG-HS peripheral support. See [synopsys-usb-otg](https://crates.io/crates/synopsys-usb-otg)
+usb_hs = ["dep:synopsys-usb-otg", "synopsys-usb-otg/hs"]
+
+## LCD support via FMC/FSMC peripheral. See [display-interface](https://crates.io/crates/display-interface)
+fsmc_lcd = ["dep:display-interface", "dep:display-interface-04"]
+
+## SDIO peripheral support. See [sdio-host](https://crates.io/crates/sdio-host)
+sdio-host = ["dep:sdio-host"]
+
+# Next features are for internal use only!!!
+
+dfsdm = []
+sai = []
+rcc_shared_m = []
+rcc_i2s_apb = []
+
+adc2 = []
+adc3 = []
+aes = []
+can1 = []
+can2 = []
+can3 = []
+cryp = []
+dac = []
+dcmi = []
+dfsdm1 = ["dfsdm"]
+dfsdm2 = ["dfsdm"]
+dma2d = []
+dsihost = ["embedded-display-controller"]
+eth = []
+fmc = []
+fsmc = []
+fmpi2c1 = ["dep:micromath"]
+gpiod = []
+gpioe = []
+gpiof = []
+gpiog = []
+gpioi = []
+gpioj = []
+gpiok = []
+i2c3 = []
+lptim1 = []
+ltdc = ["dep:micromath"]
+quadspi = []
+otg-fs = []
+otg-hs = []
+rng = []
+sai1 = ["sai"]
+sai2 = ["sai"]
+sdio = []
+spi3 = []
+spi4 = []
+spi5 = []
+spi6 = []
+spdifrx = []
+tim1 = []
+tim2 = []
+tim3 = []
+tim4 = []
+tim5 = []
+tim6 = []
+tim7 = []
+tim8 = []
+tim9 = []
+tim10 = []
+tim11 = []
+tim12 = []
+tim13 = []
+tim14 = []
+usart3 = []
+uart4 = []
+uart5 = []
+uart7 = []
+uart8 = []
+uart9 = []
+uart10 = []
+
 [dependencies]
 embedded-hal = "0.2"
 nb = "1"
-cortex-m = "0.7"
-cortex-m-rt = "0.7"
 # Panic behaviour, see https://crates.io/keywords/panic-impl for alternatives
 panic-halt = "0.2"
+defmt = { version = "0.3.10", optional = true }
+bxcan = { version = "0.8", optional = true }
+cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
+cortex-m-rt = "0.7.5"
+rand_core = "0.6.4"
+synopsys-usb-otg = { version = "0.4.0", features = [
+    "cortex-m",
+], optional = true }
+sdio-host = { version = "0.9.0", optional = true }
+embedded-dma = "0.2.0"
+embedded-display-controller = { version = "^0.2.0", optional = true }
+bare-metal = { version = "1" }
+void = { default-features = false, version = "1.0.2" }
+display-interface = { version = "0.5.0", optional = true }
+display-interface-04 = { package = "display-interface", version = "0.4.1", optional = true }
+fugit = "0.3.7"
+fugit-timer = "0.1.3"
+
+rtt-target = {version="0.3.1",  features = ["cortex-m"]}
+micromath = { version = "2.1.0", optional = true }
+rtic-monotonic = { version = "1.0", optional = true }
+systick-monotonic = { version = "1.0.1", optional = true }
+cortex-m-rtic = { version = "1.1.4", features = [
+    "test-critical-section",
+], optional = true }
+# rtic2
+rtic-time = { version = "2.0", optional = true }
+embedded-hal-async = { version = "1.0", optional = true }
+rtic = { version = "2.1.2", features = ["thumbv7-backend"], optional = true }
+atomic-polyfill = { version = "1.0.3", optional = true }
+panic-semihosting = "0.6.0"
+cortex-m-semihosting = "0.5.0"
+
+[dependencies.stm32f4]
+package = "stm32f4-staging"
+version = "0.19.0"
+features = ["atomics"]
 
 [dependencies.stm32f4xx-hal]
 version = "0.22.1"
 features = ["stm32f411"] # replace the model of your microcontroller here
                          # and add other required features
+
+[dependencies.stm32_i2s_v12x]
+version = "0.5.0"
+optional = true
+
+
+
+[dev-dependencies]
+defmt = "0.3.4"
+defmt-rtt = "0.4.0"
+panic-probe = { version = "0.3.2", features = ["print-defmt"] }
+panic-semihosting = "0.6.0"
+cortex-m-semihosting = "0.5.0"
+heapless = "0.8"
+panic-halt = "1.0.0"
+ssd1306 = "0.9.0"
+embedded-graphics = "0.8.1"
+embedded-graphics-07 = { package = "embedded-graphics", version = "0.7.1" }
+embedded-hal-bus = "0.3.0"
+usb-device = "0.3.1"
+usbd-serial = "0.2.0"
+micromath = "2"
+dwt-systick-monotonic = "1.1"
+st7789 = "0.7.0"
+rtt-target = { version = "0.6.1" }
+display-interface-spi-04 = { package = "display-interface-spi", version = "0.4.1" }
+ist7920 = "0.1.1"
+smart-leds = "0.3.0"
+ws2812-spi = { version = "0.4.0", features = [] }
+hd44780-driver = "0.4.0"
+display-interface = "0.5"
+display-interface-04 = { package = "display-interface", version = "0.4.1" }
+ft6x06 = "0.1.2"
+otm8009a = "0.1"
+ushell = "0.3.6"

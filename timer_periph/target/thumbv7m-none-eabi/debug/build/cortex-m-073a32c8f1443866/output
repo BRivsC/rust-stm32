@@ -1,0 +1,4 @@
+cargo:rustc-link-lib=static=cortex-m
+cargo:rustc-link-search=C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\build\cortex-m-073a32c8f1443866\out
+cargo:rustc-cfg=cortex_m
+cargo:rustc-cfg=armv7m

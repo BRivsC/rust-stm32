@@ -1,0 +1,1 @@
+C:\Users\basti\OneDrive\ -\ Universidad\ Técnica\ Federico\ Santa\ María\Seminario\ PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\release\timer_periph: C:\Users\basti\OneDrive\ -\ Universidad\ Técnica\ Federico\ Santa\ María\Seminario\ PCs\git\rust-stm32\timer_periph\src\main.rs

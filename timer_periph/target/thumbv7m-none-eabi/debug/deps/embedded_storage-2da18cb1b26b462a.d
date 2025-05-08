@@ -1,0 +1,9 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\deps\libembedded_storage-2da18cb1b26b462a.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\iter.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\nor_flash.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\deps\libembedded_storage-2da18cb1b26b462a.rlib: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\iter.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\nor_flash.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\deps\embedded_storage-2da18cb1b26b462a.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\iter.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\nor_flash.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\iter.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\embedded-storage-0.3.1\src\nor_flash.rs:

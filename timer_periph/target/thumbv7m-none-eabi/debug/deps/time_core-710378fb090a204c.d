@@ -1,0 +1,10 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\deps\libtime_core-710378fb090a204c.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\convert.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\hint.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\util.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\deps\libtime_core-710378fb090a204c.rlib: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\convert.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\hint.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\util.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7m-none-eabi\debug\deps\time_core-710378fb090a204c.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\convert.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\hint.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\util.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\convert.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\hint.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\time-core-0.1.4\src\util.rs:
