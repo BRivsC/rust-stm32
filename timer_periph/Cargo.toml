@@ -176,7 +176,7 @@ rtt-target = {version="0.3.1",  features = ["cortex-m"]}
 micromath = { version = "2.1.0", optional = true }
 rtic-monotonic = { version = "1.0", optional = true }
 systick-monotonic = { version = "1.0.1", optional = true }
-cortex-m-rtic = { version = "1.1.4", features = [
+cortex-m-rtic = { version = "=1.1.4", features = [
     "test-critical-section",
 ], optional = true }
 # rtic2
