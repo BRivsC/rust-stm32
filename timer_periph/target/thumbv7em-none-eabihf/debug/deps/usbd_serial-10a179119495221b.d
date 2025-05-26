@@ -1,0 +1,9 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\libusbd_serial-10a179119495221b.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\buffer.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\cdc_acm.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\io.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\serial_port.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\usbd_serial-10a179119495221b.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\buffer.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\cdc_acm.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\io.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\serial_port.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\buffer.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\cdc_acm.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\io.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\usbd-serial-0.2.2\src\serial_port.rs:

@@ -1,0 +1,10 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\libfugit-a6593d54b5a33717.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\aliases.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\duration.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\helpers.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\instant.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\rate.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\fugit-a6593d54b5a33717.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\aliases.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\duration.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\helpers.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\instant.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\rate.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\aliases.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\duration.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\helpers.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\instant.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\fugit-0.3.7\src\rate.rs:

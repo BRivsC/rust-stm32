@@ -1,0 +1,2 @@
+cargo:rustc-link-search=C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\build\ft6x06-37befb1b4847a9c5\out
+cargo:rerun-if-changed=memory.x

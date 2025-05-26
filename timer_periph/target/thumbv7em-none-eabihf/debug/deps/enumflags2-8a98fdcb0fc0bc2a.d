@@ -1,0 +1,9 @@
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\libenumflags2-8a98fdcb0fc0bc2a.rmeta: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\formatting.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\fallible.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\iter.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\const_api.rs
+
+C:\Users\basti\OneDrive - Universidad Técnica Federico Santa María\Seminario PCs\git\rust-stm32\timer_periph\target\thumbv7em-none-eabihf\debug\deps\enumflags2-8a98fdcb0fc0bc2a.d: C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\lib.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\formatting.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\fallible.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\iter.rs C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\const_api.rs
+
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\lib.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\formatting.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\fallible.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\iter.rs:
+C:\Users\basti\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumflags2-0.7.11\src\const_api.rs:

@@ -1,0 +1,6 @@
+$ mkdir -p "C:\\Users\\basti\\OneDrive - Universidad Técnica Federico Santa María\\Seminario PCs\\git\\rust-stm32\\timer_periph\\target\\thumbv7em-none-eabihf\\debug\\build\\az-46daee656b57079f\\out\\try_track_caller"
+$ cd "C:\\Users\\basti\\OneDrive - Universidad Técnica Federico Santa María\\Seminario PCs\\git\\rust-stm32\\timer_periph\\target\\thumbv7em-none-eabihf\\debug\\build\\az-46daee656b57079f\\out\\try_track_caller"
+$ printf '%s' "// try_tra"... > "C:\\Users\\basti\\OneDrive - Universidad Técnica Federico Santa María\\Seminario PCs\\git\\rust-stm32\\timer_periph\\target\\thumbv7em-none-eabihf\\debug\\build\\az-46daee656b57079f\\out\\try_track_caller\\try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "C:\\Users\\basti\\OneDrive - Universidad Técnica Federico Santa María\\Seminario PCs\\git\\rust-stm32\\timer_periph\\target\\thumbv7em-none-eabihf\\debug\\build\\az-46daee656b57079f\\out\\try_track_caller"
